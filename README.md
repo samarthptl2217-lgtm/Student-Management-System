@@ -1,143 +1,168 @@
-# Student Performance Management System
+Student Management System
 
-A Python-based **Student Performance Management System** developed as a PBL/Micro Project for the subject **Python for Data Science**. The application allows users to enter, manage, and analyze student performance data.
+A Python-based Student Management System developed as a PBL/Micro Project for the subject Python for Data Science. The application allows users to add, search, update, delete, and analyze student records through an interactive web interface.
 
-## Project Description
+Project Description
 
-The Student Performance Management System is an interactive web application developed using **Python, Pandas, and Streamlit**.
+The Student Management System is an interactive web application developed using Python, Pandas, Streamlit, and Matplotlib.
 
-Users can manually enter student details such as Student ID, Name, Attendance, Study Hours, Assignment Marks, Internal Marks, Practical Marks, and Final Exam Marks.
+The system allows users to manually enter student details such as Student ID, Name, Gender, Age, Course, Semester, Email, Attendance, Marks, and Status.
 
-The system automatically calculates the total and average marks and determines the student's Pass/Fail result.
+Student records are stored in a CSV file. The application also provides search, update, delete, data analysis, and graphical visualization features.
 
-## Objectives
+Objectives
+To develop a student management application using Python.
+To add and manage student records.
+To search student information using Student ID.
+To update existing student records.
+To delete student records.
+To store data in a CSV file.
+To analyze student marks and attendance using Pandas.
+To visualize student data using Matplotlib.
+To develop an interactive web application using Streamlit.
+To implement Streamlit as a beyond-syllabus topic.
+Features
+Add Student
+View Student Records
+Search Student
+Update Student
+Delete Student
+Duplicate Student ID Checking
+CSV Data Storage
+Student Data Analysis
+Average Marks Analysis
+Average Attendance Analysis
+Highest and Lowest Marks
+Active Student Count
+Students by Course
+Students by Status
+Student Marks Graph
+Marks Distribution Graph
+Students by Course Graph
+Attendance vs Marks Graph
+Interactive Web Interface
+Technologies Used
+Python – Main programming language
+Pandas – Data management and analysis
+Streamlit – Interactive web application
+Matplotlib – Data visualization
+CSV – Student data storage
+Beyond Syllabus Topic
+Streamlit – Interactive Web Application Development
 
-* To develop a student management application using Python.
-* To manually enter and manage student records.
-* To calculate total and average marks automatically.
-* To determine student Pass/Fail results.
-* To store student records in a CSV file.
-* To analyze student performance using Pandas.
-* To display student statistics and visualization.
-* To implement Streamlit as a beyond-syllabus topic.
+Streamlit is used as the beyond-syllabus topic in this project.
 
-## Features
+Streamlit is used to convert the Python program into an interactive web application. Users can perform operations such as adding, searching, updating, and deleting student records through the web interface.
 
-* Add Student
-* View Student Records
-* Remove Student
-* Duplicate Student ID Checking
-* Automatic Total Marks Calculation
-* Automatic Average Marks Calculation
-* Pass/Fail Result
-* CSV Data Storage
-* Student Statistics
-* Performance Visualization
-* Interactive Web Interface
+The application also displays student analysis and graphical visualizations.
 
-## Technologies Used
+Student Information
 
-* **Python** – Main programming language
-* **Pandas** – Data management and analysis
-* **Streamlit** – Interactive web application
-* **CSV** – Student data storage
+The system stores the following student details:
 
-## Beyond Syllabus Topic
+Student ID
+Student Name
+Gender
+Age
+Course
+Semester
+Email
+Attendance Percentage
+Marks Percentage
+Status
+Main Operations
+1. Add Student
 
-### Streamlit – Interactive Web Application Development
+Users can enter new student information and save it to the CSV file. The system also checks whether the Student ID already exists.
 
-**Streamlit** is used as the beyond-syllabus topic in this project.
+2. Search Student
 
-It converts the Python data analysis program into an interactive web application. Users can enter student details, view records, remove students, and see statistics and charts through the Streamlit interface.
+Users can search for a student by entering the Student ID.
 
-## Data Processing
+3. Update Student
 
-The system accepts:
+Existing student information can be updated using the Student ID.
 
-* Student ID
-* Student Name
-* Age
-* Gender
-* Attendance
-* Study Hours
-* Assignment Marks
-* Internal Marks
-* Practical Marks
-* Final Exam Marks
+4. Delete Student
 
-The system calculates:
+A student record can be deleted using the Student ID.
 
-* Total Marks
-* Average Marks
-* Result
+5. Analysis
 
-A student is considered **Pass** when the average marks are at least 50 and attendance is at least 75%.
+The system provides:
 
-## Project Structure
+Total Students
+Average Marks
+Average Attendance
+Highest Marks
+Lowest Marks
+Active Students
+Students by Course
+Students by Status
+6. Graph
 
-```text
+The system provides different visualizations:
+
+Student Marks
+Marks Distribution
+Students by Course
+Attendance vs Marks
+Data Storage
+
+Student records are stored in:
+
+student_management_system.csv
+
+The CSV file is automatically created when it does not already exist.
+
+Project Structure
 Student-Management-System/
 │
 ├── pds.py
-├── student_dataset.csv
+├── student_management_system.csv
 ├── README.md
 ├── requirements.txt
 └── screenshots/
-```
+Installation
 
-## Installation
+Install the required libraries using:
 
-Install the required libraries:
-
-```bash
 pip install -r requirements.txt
-```
 
-The `requirements.txt` file contains:
+The requirements.txt file contains:
 
-```text
 streamlit
 pandas
-```
-
-## How to Run
+matplotlib
+How to Run
 
 Run the following command:
 
-```bash
 python -m streamlit run pds.py
-```
 
 The application will open in the browser at:
 
-```text
 http://localhost:8501
-```
 
-## Future Scope
+Future Scope
 
 The project can be extended by adding:
 
-* Search Student
-* Update Student
-* Grade Calculation
-* Subject-wise Analysis
-* Database Connectivity
-* Machine Learning-based Result Prediction
+Login and User Authentication
+Subject-wise Marks
+Grade Calculation
+Advanced Student Reports
+Database Connectivity
+Export Reports to PDF/Excel
+Machine Learning-based Student Performance Prediction
+Conclusion
 
-## Conclusion
+The Student Management System demonstrates the practical application of Python for Data Science for managing and analyzing student data. It combines Pandas for data handling, Streamlit for web application development, Matplotlib for visualization, and CSV for data storage to create an interactive student management application.
 
-The project demonstrates the practical use of **Python for Data Science** for student data management and analysis. It combines data handling, calculations, CSV storage, and visualization with **Streamlit** to create an interactive application.
+Author
 
-## Author
-
-**Name:** samarth Patel
-
-**Subject:** Python for Data Science
-
-**Project:** Student Performance Management System
-
-**Project Type:** PBL 3 – Micro Project
-
-**Beyond Syllabus:** Streamlit
-
+Name: Samarth Patel
+Subject: Python for Data Science
+Project: Student Management System
+Project Type: PBL 3 – Micro Project
+Beyond Syllabus: Streamlit – Interactive Web Application Development
