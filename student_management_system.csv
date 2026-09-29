@@ -1,0 +1,11 @@
+Student_ID,Student_Name,Gender,Age,Course,Semester,Email,Attendance_Percentage,Marks_Percentage,Status
+STU001,Aarav Patel,Male,19,Computer Engineering,3,aarav.patel@example.com,92.0,85.0,Active
+STU002,Diya Shah,Female,20,Information Technology,5,diya.shah@example.com,88.0,91.0,Active
+STU004,Anaya Desai,Female,21,Mechanical Engineering,7,anaya.desai@example.com,95.0,89.0,Active
+STU005,Vivaan Joshi,Male,19,Civil Engineering,3,vivaan.joshi@example.com,72.0,68.0,Active
+STU006,Isha Trivedi,Female,20,Information Technology,5,isha.trivedi@example.com,90.0,93.0,Active
+STU007,Reyansh Modi,Male,18,Electrical Engineering,1,reyansh.modi@example.com,83.0,77.0,Active
+STU008,Myra Bhatt,Female,21,Computer Engineering,7,myra.bhatt@example.com,97.0,95.0,Active
+STU009,Aditya Rana,Male,20,Mechanical Engineering,5,aditya.rana@example.com,68.0,62.0,Active
+STU010,Kiara Dave,Female,19,Civil Engineering,3,kiara.dave@example.com,86.0,81.0,Active
+STU011,SAMARTH PATEL,Male,19,Computer Engineering,5,samarth@gmail.com,75.0,70.0,Active
